@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Product</title>
+        <style>
+            body {
+                background-color: rgb(90, 88, 88);
+            }
+            #nike1{
+                color:  rgb(0, 0, 0);
+            }
+
+            h3{
+                color: rgb(0, 0, 0);
+            }
+            h1{
+                color: rgb(0, 0, 0);
+            }
+            .box{
+            width: 210px;
+                border: 1px solid;
+            
+            }
+        </style>
+    </head>
+    <body>
+       <center>
+        <h1>ULS NRC+</h1>
+        <div class="desain-layout">
+            <div class="box">
+                <img width="200"src="nike.jpg" alt="">
+                <h3 id="nike1">
+                    <small><i>Running Shoes</i></small>
+                    <p><b>NIKE GB</b></p>
+                    <p>Price : $696</p>
+                </h3>
+                
+            </div>
+        </div>
+        <form action="output.html" method="get">
+        <label for="size">Size :</label>
+        <select name="size" id="size">
+            <option value="40">40</option>
+            <option value="41">41</option>
+            <option value="42">42</option>
+            <option value="43">43</option>
+          </select> <br>
+        <label for="amount">Amount :</label>
+        <input type="number" name="amount">
+        <button type="submit">Checkout</button>
+    </form>
+       </center>
+    </body>
+</html>
